@@ -5,6 +5,7 @@ import { Button } from "./components/button.js";
 import { Link } from "./components/link.js";
 import { DesenharHeader } from "./components/header.js";
 
+
 export function CardBasicos(){
     fetch('data.json')
     .then(response => response.json())
@@ -62,5 +63,34 @@ export function CardIntermediarios(){
         })
     })
 }
-CardIntermediarios()
+export function CardPremium(){
+    fetch('data.json')
+    .then(response => response.json())
+    .then(data =>{
+        const container = document.querySelector("#premium")
+        data.premium.map(carr=>{
+            const card = new Card()
+            
+            const img = new Img(carr.img)
+
+            const nome = new Text("h2", carr.nome)
+
+            const desc = new Text("h1", carr.descricao)
+            
+            const button = new Button("button")
+
+            const link = new Link(carr.link, "_blank", "comprar")
+
+            card.appendElement(img)
+            card.appendElement(nome)
+            card.appendElement(desc)
+            card.appendElement(button)
+            button.appendElement(link)
+
+            container.appendChild(card.element)
+        })
+    })
+}
 CardBasicos()
+CardIntermediarios()
+CardPremium()

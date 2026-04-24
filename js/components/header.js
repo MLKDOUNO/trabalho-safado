@@ -8,7 +8,7 @@ export function DesenharHeader(){
         heade.classList.add("heade")
 
         const text = document.createElement("h1")
-        text.textContent = "ola"
+        text.textContent = "Psiquiatria games"
 
         heade.appendChild(text)
         header.appendChild(heade)

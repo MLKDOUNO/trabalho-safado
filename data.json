@@ -45,6 +45,32 @@
         "descricao" : "Descrição: A escolha certa para quem precisa de um fone robusto para longas sessões no PC (seja jogando ou editando vídeos). É famoso pelo extremo conforto das espumas de memory foam e pelo microfone de altíssima clareza.",
         "link":"https://meli.la/1D9HVUA"
     }
+    ],
+    "premium":[
+        {
+        "nome": "Sony WH-1000XM5",
+        "img":"https://http2.mlstatic.com/D_Q_NP_860917-MLA99501528462_112025-F.webp",
+        "descricao" : "Descrição: Famoso por ter, indiscutivelmente, um dos melhores cancelamentos de ruído do planeta. O som é rico, o design é sofisticado e os microfones para chamadas são impecáveis.",
+        "link":"https://meli.la/1Egr6se"
+    },
+    {
+        "nome": "Apple AirPods Pro 2",
+        "img":"https://http2.mlstatic.com/D_Q_NP_841774-MLA96136658915_102025-F.webp",
+        "descricao" : "Descrição: A escolha definitiva para quem usa iPhone. O modo ambiente (transparência) é tão natural que você esquece que está de fone. O cancelamento de ruído e o Áudio Espacial são excepcionais.",
+        "link":"https://meli.la/2ozwSw2"
+    },
+    {
+        "nome": "Sennheiser Momentum 4 Wireless",
+        "img":"https://http2.mlstatic.com/D_Q_NP_770841-MLB104804297146_012026-F.webp",
+        "descricao" : "Descrição: Para quem prioriza qualidade sonora acima de tudo num fone Bluetooth. Tem um som absurdamente detalhado e audiófilo, acompanhado de uma bateria monstruosa que chega a 60 horas com o ANC ligado",
+        "link":"https://meli.la/1WP4g9G"
+    },
+    {
+        "nome": "Bose QuietComfort Ultra",
+        "img":"https://http2.mlstatic.com/D_Q_NP_848559-MLA96116674439_102025-F.webp",
+        "descricao" : "Descrição: A Bose é pioneira em ANC, e o Ultra entrega uma bolha de silêncio incomparável. É extremamente leve, confortável para quem usa óculos e possui a tecnologia de áudio imersivo da marca.",
+        "link":"https://meli.la/2brE3zJ"
+    }
     ]
 
     
