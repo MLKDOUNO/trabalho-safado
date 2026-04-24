@@ -1,10 +1,11 @@
+//Import components
 import { Card } from "./components/card.js";
 import { Img } from "./components/img.js";
 import { Text } from "./components/text.js";
-import { Button } from "./components/button.js";
-import { Link } from "./components/link.js";
-import { DesenharHeader } from "./components/header.js";
 import { Form } from "./components/form.js";
+
+//import funcs
+import { DesenharHeader } from "./components/header.js";
 
 
 export function CardBasicos(){
