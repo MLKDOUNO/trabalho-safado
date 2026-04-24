@@ -4,6 +4,7 @@ import { Text } from "./components/text.js";
 import { Button } from "./components/button.js";
 import { Link } from "./components/link.js";
 import { DesenharHeader } from "./components/header.js";
+import { Form } from "./components/form.js";
 
 
 export function CardBasicos(){
@@ -19,16 +20,14 @@ export function CardBasicos(){
             const nome = new Text("h2", carr.nome)
 
             const desc = new Text("h1", carr.descricao)
-            
-            const button = new Button("button")
 
-            const link = new Link(carr.link, "_blank", "comprar")
+            const form = new Form("POST", carr.link)
+            form.addButton("comprar")
 
             card.appendElement(img)
             card.appendElement(nome)
             card.appendElement(desc)
-            card.appendElement(button)
-            button.appendElement(link)
+            card.appendElement(form)
 
             container.appendChild(card.element)
         })
@@ -49,15 +48,13 @@ export function CardIntermediarios(){
 
             const desc = new Text("h1", carr.descricao)
             
-            const button = new Button("button")
-
-            const link = new Link(carr.link, "_blank", "comprar")
+            const form = new Form("POST", carr.link)
+            form.addButton("comprar")
 
             card.appendElement(img)
             card.appendElement(nome)
             card.appendElement(desc)
-            card.appendElement(button)
-            button.appendElement(link)
+            card.appendElement(form)
 
             container.appendChild(card.element)
         })
@@ -77,15 +74,13 @@ export function CardPremium(){
 
             const desc = new Text("h1", carr.descricao)
             
-            const button = new Button("button")
-
-            const link = new Link(carr.link, "_blank", "comprar")
+            const form = new Form("POST", carr.link)
+            form.addButton("comprar")
 
             card.appendElement(img)
             card.appendElement(nome)
             card.appendElement(desc)
-            card.appendElement(button)
-            button.appendElement(link)
+            card.appendElement(form)
 
             container.appendChild(card.element)
         })

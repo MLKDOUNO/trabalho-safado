@@ -26,7 +26,11 @@
     font-size: 1vw;
     margin-top: auto;
 }
-.card button{
+.card form{
+    width: auto;
+    margin-bottom: 2px;
+}
+.card form button{
     width: auto;
     margin-bottom: 2px;
 }
