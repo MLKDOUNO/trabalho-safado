@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient(#424242,#8d8d8d, #353534);
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +8,7 @@
 }
 .card{
     border: 2px solid black;
-    width: 20vw;
+    width: 15vw;
     border-radius: 2px;
     margin-bottom: 2px;
     margin-top: 2%;
@@ -13,9 +16,10 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 .card img{
-    width: 100%;
+    width: 80%;
 }
 .card h2{
     font-size: 2vw;
@@ -40,8 +44,9 @@
 }
 .header {
     height: 5vw;
-    background-color: black;
-    margin: -1%;
+    background-color: rgb(22, 22, 22);
+    margin-right: -0.5%;
+    margin-left: -0.6%;
     width: 101%;
     
 }
@@ -58,5 +63,6 @@
 h1{
     text-align: center;
     margin-top: 2vw;
+    color: white;
 }
     
