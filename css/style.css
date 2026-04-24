@@ -29,6 +29,7 @@ body{
 .card h1{
     font-size: 1vw;
     margin-top: auto;
+    color: black;
 }
 .card form{
     width: auto;
