@@ -7,7 +7,7 @@ export class Card extends Element{
     }
 
     add = () => {
-        this.element.classList.add(this.id)
+        this.element.classList.add(this.type)
     }
     
 }

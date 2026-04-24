@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.undefined{
+.card{
     border: 2px solid black;
     width: 20vw;
     border-radius: 2px;
@@ -14,23 +14,23 @@
     display: flex;
     flex-direction: column;
 }
-.undefined img{
+.card img{
     width: 100%;
 }
-.undefined h2{
+.card h2{
     font-size: 2vw;
     margin-top: auto;
     margin-bottom: 4px;
 }
-.undefined h1{
+.card h1{
     font-size: 1vw;
     margin-top: auto;
 }
-.undefined button{
+.card button{
     width: auto;
     margin-bottom: 2px;
 }
-.undefined button a{
+.card button a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
