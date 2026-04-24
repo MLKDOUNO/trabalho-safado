@@ -21,7 +21,7 @@ export function CardBasicos(){
 
             const desc = new Text("h1", carr.descricao)
 
-            const form = new Form("POST", carr.link)
+            const form = new Form("GET", carr.link)
             form.addButton("comprar")
 
             card.appendElement(img)
@@ -48,7 +48,7 @@ export function CardIntermediarios(){
 
             const desc = new Text("h1", carr.descricao)
             
-            const form = new Form("POST", carr.link)
+            const form = new Form("GET", carr.link)
             form.addButton("comprar")
 
             card.appendElement(img)
@@ -74,7 +74,7 @@ export function CardPremium(){
 
             const desc = new Text("h1", carr.descricao)
             
-            const form = new Form("POST", carr.link)
+            const form = new Form("GET", carr.link)
             form.addButton("comprar")
 
             card.appendElement(img)
