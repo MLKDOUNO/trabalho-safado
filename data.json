@@ -1,0 +1,53 @@
+
+{
+    "basicos":[
+    {
+        "nome": "Moondrop Space Travel",
+        "img":"https://http2.mlstatic.com/D_NQ_NP_2X_753966-MLA99938112545_112025-F.webp",
+        "descricao" : "Descrição:Oferece cancelamento de ruído ativo (ANC) e uma qualidade sonora incrivelmente equilibrada para essa faixa de preço. O design transparente da case também chama bastante atenção.",
+        "link":"https://meli.la/1VWDiwA"
+    },
+    {
+        "nome": "KZ ZSN Pro",
+        "img":"https://http2.mlstatic.com/D_Q_NP_879337-MLA96132733363_102025-F.webp",
+        "descricao": "Descrição:Possui áudio detalhado, graves presentes e um cabo destacável, o que aumenta muito a durabilidade do produto.",
+        "link":"https://meli.la/1K1EEwC"
+    },
+        {
+        "nome": "JBL Wave Buds",
+        "img":"https://http2.mlstatic.com/D_Q_NP_705864-MLA99523953334_122025-F.webp",
+        "descricao" : "Descrição: A porta de entrada confiável para o ecossistema JBL. Oferece o som característico da marca (com foco em graves), resistência à água e poeira, e integração com o aplicativo da JBL.",
+        "link":"https://meli.la/2GMX9Wv"
+    },
+        {
+        "nome": "Edifier W800BT Plus",
+        "img":"https://http2.mlstatic.com/D_Q_NP_883568-MLA99453913634_112025-F.webp",
+        "descricao" : "Descrição: Um fone de concha leve e confortável com uma bateria absurda que pode passar das 50 horas de reprodução. O som é limpo e equilibrado, excelente para longas horas de trabalho ou estudo.",
+        "link":"https://meli.la/1KXJgq5"
+    }
+    ],
+    "Intermediarios":[
+        {
+        "nome": "Samsung Galaxy Buds FE",
+        "img":"https://http2.mlstatic.com/D_Q_NP_690075-MLA95673318980_102025-F.webp",
+        "descricao" : "Descrição: Oferece o melhor encaixe da linha Galaxy, graves encorpados e um cancelamento de ruído que bate de frente com fones bem mais caros. A integração com celulares Android é excelente.",
+        "link":"https://meli.la/282Csao"
+    },
+    {
+        "nome": "JBL Tune 720BT",
+        "img":"https://http2.mlstatic.com/D_Q_NP_620828-MLA106567687577_022026-F.webp",
+        "descricao" : "Descrição: Um modelo muito prático para o dia a dia, com graves poderosos (JBL Pure Bass), até 76 horas de bateria e carregamento rápido. O design é dobrável, facilitando o transporte.",
+        "link":"https://meli.la/2ddWNzn"
+    },
+    {
+        "nome": "HyperX Cloud III",
+        "img":"https://http2.mlstatic.com/D_Q_NP_910177-MLA95703573698_102025-F.webp",
+        "descricao" : "Descrição: A escolha certa para quem precisa de um fone robusto para longas sessões no PC (seja jogando ou editando vídeos). É famoso pelo extremo conforto das espumas de memory foam e pelo microfone de altíssima clareza.",
+        "link":"https://meli.la/1D9HVUA"
+    }
+    ]
+
+    
+}
+
+  
